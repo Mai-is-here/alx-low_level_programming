@@ -2,7 +2,8 @@
 #include <string.h>
 
 /**
- *main (void) this function will display a string
+ * main - this function will display a string
+ * return value should be zero if the code runs without error
  */
 int main(void)
 {
