@@ -2,7 +2,7 @@
 
 /**
  * main - this function displays something
- * return should be zero if code runs without error
+ * Return: 0 exit without error
  */
 int main(void)
 {
