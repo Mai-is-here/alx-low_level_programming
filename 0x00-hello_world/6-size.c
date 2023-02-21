@@ -6,10 +6,11 @@
  */
 int main(void)
 {
-	fprintf("Size of a char:%2d byte(s)\n", sizeof(char), stderr);
-	fprintf("Size of an int:%2d byte(s)\n", sizeof(int), stderr);
-	fprintf("Size of a long int:%2d byte(s)\n", sizeof(long int), stderr);
-	fprintf("Size of a long long int:%2d byte(s)\n", sizeof(long long int), stderr);
-	fprintf("Size of a float:%2d byte(s)", sizeof(float), stderr);
+	printf("Size of a char:%2d byte(s)\n", sizeof(char));
+	printf("Size of an int:%2d byte(s)\n", sizeof(int));
+	printf("Size of a long int:%2d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int:%2d byte(s)\n", sizeof(long long int));
+	printf("Size of a float:%2d byte(s)", sizeof(float));
+	fprintf(stderr, "Error");
 	return (0);
 }
