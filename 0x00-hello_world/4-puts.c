@@ -3,7 +3,7 @@
 
 /**
  * main - this function will display a string
- * return value should be zero if the code runs without error
+ * return value : code runs without error
  */
 int main(void)
 {

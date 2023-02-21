@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main(void) this function displays something
+ * main - this function displays something
+ * return should be zero if code runs without error
  */
 int main(void)
 {
