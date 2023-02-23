@@ -7,9 +7,10 @@
  */
 void print_alphabet(void)
 {
-	int i = 0;
-	while ( i <= 25 , i++)
-	       putchar(97 + i);
+	int i;
+	i = 97;
+	do putchar(i);
+	while(i <= 122 , i++);
 }
 /**
  * main - check the code
