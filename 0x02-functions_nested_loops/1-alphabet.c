@@ -9,8 +9,12 @@ void print_alphabet(void)
 {
 	int i;
 	i = 97;
-	do putchar(i);
-	while(i <= 122 , i++);
+	do
+	{
+		putchar(i);
+		i++;
+	}
+	while(i <= 122);
 }
 /**
  * main - check the code
@@ -19,6 +23,6 @@ void print_alphabet(void)
  */
 int main(void)
 {
-	void  print_alphabet(void);
+	print_alphabet();
 	return (0);
 }
