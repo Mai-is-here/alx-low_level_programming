@@ -10,7 +10,6 @@ void print_alphabet(void)
 	int i = 0;
 	while ( i <= 25, i++)
 	       putchar(97 + i);
-	return (0);
 }
 /**
  * main - check the code
