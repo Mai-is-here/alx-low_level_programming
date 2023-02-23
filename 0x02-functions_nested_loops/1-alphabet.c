@@ -8,7 +8,7 @@
 void print_alphabet(void)
 {
 	int i = 0;
-	while ( i <= 25, i++)
+	while ( i <= 25 , i++)
 	       putchar(97 + i);
 }
 /**
@@ -18,6 +18,6 @@ void print_alphabet(void)
  */
 int main(void)
 {
-	print_alphabet();
+	void  print_alphabet(void);
 	return (0);
 }
