@@ -6,28 +6,17 @@
  *
  * Return: 1 if uppercase, 0 if lowercase
  */
-int _isupper(int c)
-{
-	int i;
-	i = 65;
-
-	for(i < 91; i++;)
-	{
-		return (1);
-	}
-}
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
 int main(void)
 {
-	char c;
+	int _isupper(int c)
+	{
+		int i;
+		i = 65;
 
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
+		for(i < 91; i++;)
+		{
+			return (1);
+		}
+	}
 	return (0);
 }
