@@ -5,7 +5,7 @@
  * print_alphabet - display alphabet
  * Return: 0 if correct
  */
-void print_alphabet(void)
+int  print_alphabet(void)
 {
 	int i;
 	i = 97;
@@ -15,6 +15,7 @@ void print_alphabet(void)
 		i++;
 	}
 	while(i <= 122);
+	return (0);
 }
 /**
  * main - check the code
@@ -23,6 +24,6 @@ void print_alphabet(void)
  */
 int main(void)
 {
-	void print_alphabet();
+	int print_alphabet();
 	return (0);
 }
